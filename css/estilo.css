@@ -1,10 +1,64 @@
+li{
+    display:inline;
+    padding-left: 5%;
+    
+
+
+    
+}
+
+
 
 @media (min-width: 480px){
     /*celular*/
     body{
     font-family: arial, sans-serif;
-    background:azure;
-    margin: 0;
+    background:	#87CEFA;
+    width: 100%;
+	margin: auto;
+
+    }
+
+    .principal{
+        background-color: blue;
+        height: 1000px;
+        width: 1000px;
+       
+        margin-top: 5px;
+    }
+
+    .topo-img{
+        background-image: url(../imagens/topo.png);
+        background-repeat: no-repeat;       
+        width: 600px;
+        height: 338px;
+        margin-top: 1%;
+        margin-left: 20%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 2%;
+    }
+
+
+    .menu{
+        color: 	#000080;
+        padding-top: 1%;
+        font-weight: bold;
+        margin-left: 5%;
+        padding-left: 10%;
+
+        
+        
+    }
+
+    .itens-centro{
+        color: 	#000080;
+        padding-top: 1%;
+        font-weight: bold;
+        margin-left: 5%;
+        padding-left: 10%;
+
+        
+        
     }
 }
 
@@ -21,7 +75,7 @@
     /*computador*/
     body{
     font-family: arial, sans-serif;
-    background:	#7FFFD4;
+    background:	#87CEFA;
     width: 75%;
 	margin: auto;
 
@@ -44,8 +98,27 @@
         margin-left: 20%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 2%;
-        
+    }
 
+    .menu{
+        color: 	#000080;
+        padding-top: 1%;
+        font-weight: bold;
+        margin-left: 5%;
+        padding-left: 10%;
+
+        
+        
+    }
+
+    .itens-centro{
+        color: 	#000080;
+        padding-top: 1%;
+        font-weight: bold;
+        margin-left: 5%;
+        padding-left: 10%;
+
+        
         
     }
 
