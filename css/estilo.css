@@ -1,10 +1,11 @@
 li{
     display:inline;
     padding-left: 5%;
-    
 
+}
 
-    
+a{
+    text-decoration: none;
 }
 
 
@@ -36,6 +37,18 @@ li{
         margin-left: 20%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 2%;
+    }
+
+    .menu-detalhe{
+        background-color: aliceblue;
+        opacity: 0.5;
+        
+        border-bottom: #000080;
+        border-width: 3px;
+        border-bottom-style: solid;
+        border-radius: 10px 10px 0px 0px;
+
+
     }
 
 
@@ -118,6 +131,26 @@ li{
 
       
     }
+
+    .atividades{
+        background-color:#0080FF;
+        width: 800px;
+        height: 300px;
+        margin-top: 3%;
+        margin-left: 10%;
+        /*background-image: url(../imagens/atividade.png);*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 45%;
+        border-radius: 1%;
+    }
+    .atividades p{
+        text-align: center;
+        padding-top: 2%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        
+    }
+
     .base-texto{
         color: #C0C0C0;
         font-size: 90%;
@@ -187,11 +220,23 @@ li{
         border-radius: 2%;
     }
 
+    .menu-detalhe{
+        background-color: aliceblue;
+        opacity: 0.5;
+        
+        border-bottom: #000080;
+        border-width: 3px;
+        border-bottom-style: solid;
+        border-radius: 10px 10px 0px 0px;
+
+
+    }
+
     .menu{
-        color: 	#000080;
-        padding-top: 1%;
+        color: 	#000080;     
+        
         font-weight: bold;
-        margin-left: 5%;
+        margin-left: 8%;
         padding-left: 10%;
     }
 
@@ -262,6 +307,44 @@ li{
 
       
     }
+
+    .atividades{
+        background-color:#0080FF;
+        width: 800px;
+        height: 300px;
+        margin-top: 3%;
+        margin-left: 10%;
+        /*background-image: url(../imagens/atividade.png);*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 1%;
+        background-size: 45%;
+    }
+    .atividades p{
+        text-align: center;
+        padding-top: 2%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        
+    }
+
+    .form-contato{
+        background-color:#0431B4;
+        color: #C0C0C0;
+        width: 800px;
+        height: 300px;
+        margin-top: 3%;
+        margin-left: 10%;
+        /*background-image: url(../imagens/atividade.png);*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 1%;
+        background-size: 45%; 
+    }
+
+    .form-contato h1{
+        text-align: center;
+     }
+
 
     .base-texto{
         color: #C0C0C0;

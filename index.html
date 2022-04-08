@@ -13,15 +13,17 @@
     <body>
         
       <!-- <div class="principal">-->
-            <header class="topo-img">    
-                <nav class="menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Serviços</li>
-                        <li>Contatos</li>
-                    </ul>
-                      
-                </nav>          
+            <header class="topo-img">
+                <nav class="menu-detalhe">  
+                    <nav class="menu">
+                        <ul>
+                            <a href="#servicosEmpresa"><li>Serviços</li></a>
+                            <a href="#"><li>Entre em Contato</li></a>
+                            <a href="#contatoProfissional"><li>Contatos</li></a>
+                        </ul>
+                        
+                    </nav> 
+               </nav>           
               
             </header>
             
@@ -42,6 +44,35 @@
                     </article>
                       
                 </section> 
+
+                <section class="atividades">
+                   <p id="servicosEmpresa"><img src="../refriseg/imagens/atividade.png" alt="Atividade" width="45%"/></p>
+                </section>
+
+                <section class="form-contato">
+                    <form name="meu_form">
+
+                        <h1>Entre em contato</h1>
+
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+                        
+                        <label for="fone">Fone</label>
+                        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                        
+                        <label for="descricao">Descrição</label>
+                        <textarea placeholder="Deixe sua opnião"></textarea>
+                      
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    </form>
+                    
+                 </section>
+
+
+
                 
             </main>
             
@@ -62,7 +93,7 @@
 
                 <div class="telefone">
                     
-                   <p>Telefone:<br> +55 (86) 99999-2456<br> +55 (86) 99999-2456</p>                      
+                   <p id="contatoProfissional">Telefone:<br> +55 (86) 99999-2456<br> +55 (86) 99999-2456</p>                      
                
                 </div> 
             </footer>
