@@ -151,6 +151,86 @@ a{
         
     }
 
+    /*não passado para celular*/
+    .form-contato{
+        background-color:#0431B4;
+        color: #FFFFFF;
+        width: 800px;
+        height: 400px;
+        margin-top: 3%;
+        margin-left: 10%;
+        /*background-image: url(../imagens/atividade.png);*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 1%;
+        background-size: 45%; 
+        
+    }
+    
+    .form-contato h1{
+        text-align: center;
+     }
+       
+    h1 {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: darkgrey;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    input, textarea {
+        width: 200px;
+        padding: 10px;
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+    }
+    
+    input:hover, textarea:hover, input:focus, textarea:focus {
+        border-color: #000066;
+        box-shadow: 5px 0px 9px #0080FF;
+        background-color: #9b9b9b;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .enviar {
+        background-color: #FFFFFF;
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+        color: black;
+        margin-left: 50%;
+    }
+    
+    textarea {
+        width: 400px;
+        height: 120px;
+        line-height: 30px;
+        max-width: 180px;
+        margin-left: 1%;
+    }
+
+    #foneid{ 
+        margin-left: 3%;
+    }
+    #nomeid{
+        margin-left: 2.2%;
+    }
+    
+    form label {
+        margin-left: 33%;
+        color: darkgrey;
+        font-weight: bold;
+    }
+
     .base-texto{
         color: #C0C0C0;
         font-size: 90%;
@@ -326,12 +406,12 @@ a{
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         
     }
-
+    /*não passado para celular*/
     .form-contato{
         background-color:#0431B4;
-        color: #C0C0C0;
+        color: #FFFFFF;
         width: 800px;
-        height: 300px;
+        height: 400px;
         margin-top: 3%;
         margin-left: 10%;
         /*background-image: url(../imagens/atividade.png);*/
@@ -339,13 +419,87 @@ a{
         background-position: center center;
         border-radius: 1%;
         background-size: 45%; 
+        
     }
-
+    
     .form-contato h1{
         text-align: center;
      }
+       
+    h1 {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: darkgrey;
+        text-shadow: 5px 5px 5px black;
+    }
+    
+    input, textarea {
+        width: 200px;
+        padding: 10px;
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+    }
+    
+    input:hover, textarea:hover, input:focus, textarea:focus {
+        border-color: #000066;
+        box-shadow: 5px 0px 9px #0080FF;
+        background-color: #9b9b9b;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .enviar {
+        background-color: #FFFFFF;
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+        color: black;
+        margin-left: 50%;
+    }
+    
+    textarea {
+        width: 400px;
+        height: 120px;
+        line-height: 30px;
+        max-width: 180px;
+        margin-left: 1%;
+    }
+
+    #foneid{ 
+        margin-left: 3%;
+    }
+    #nomeid{
+        margin-left: 2.2%;
+    }
+    
+    form label {
+        margin-left: 33%;
+        color: darkgrey;
+        font-weight: bold;
+    }
 
 
+
+
+
+
+
+
+
+
+    
+
+     
+
+    
     .base-texto{
         color: #C0C0C0;
         font-size: 90%;
